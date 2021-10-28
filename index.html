@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<script
+			src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
+			integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n"
+			crossorigin="anonymous"
+		></script>
+
+		<link
+			rel="stylesheet"
+			href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+			integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh"
+			crossorigin="anonymous"
+		/>
+		<style>
+			.row > .cell {
+				width: 50px;
+				height: 100px;
+				line-height: 100px;
+			}
+		</style>
+		<title>Corum Digital Corporation</title>
+	</head>
+	<body>
+		<div class="container mt-3">
+			<!-- Form -->
+			<section class="mb-5">
+				<form>
+					<div class="form-group row">
+						<label for="inputPassword" class="col-2 col-form-label"
+							>Username</label
+						>
+						<div class="col-10">
+							<input
+								type="text"
+								class="form-control"
+								id="inputUsername"
+							/>
+						</div>
+					</div>
+					<div class="form-group row">
+						<label for="inputPassword" class="col-2 col-form-label"
+							>Password</label
+						>
+						<div class="col-10">
+							<input
+								type="password"
+								class="form-control"
+								id="inputPassword"
+							/>
+						</div>
+					</div>
+				</form>
+			</section>
+
+			<!-- Grid -->
+			<section class="container-fluid text-center">
+				<div class="row">
+					<div
+						class="cell col-4 border border-dark"
+						id="cell-1"
+					></div>
+					<div
+						class="cell col-4 border border-dark"
+						id="cell-2"
+					></div>
+					<div
+						class="cell col-4 border border-dark"
+						id="cell-3"
+					></div>
+				</div>
+				<div class="row">
+					<div
+						class="cell col-4 border border-dark"
+						id="cell-4"
+					></div>
+					<div class="cell col-4 border border-dark" id="cell-5">
+						Text Here
+					</div>
+					<div
+						class="cell col-4 border border-dark"
+						id="cell-6"
+					></div>
+				</div>
+				<div class="row">
+					<div
+						class="cell col-4 border border-dark"
+						id="cell-7"
+					></div>
+					<div
+						class="cell col-4 border border-dark"
+						id="cell-8"
+					></div>
+					<div
+						class="cell col-4 border border-dark"
+						id="cell-9"
+					></div>
+				</div>
+			</section>
+
+			<!-- Button -->
+			<section class="text-center mt-3">
+				<button
+					type="button"
+					class="button btn btn-primary"
+					id="btn-text"
+				>
+					Click Me
+				</button>
+			</section>
+
+			<!-- Progress bar -->
+			<section class="mt-4">
+				<p class="progress-label float-left mr-2 font-weight-bold">
+					Progress
+				</p>
+				<div class="progress" id="prog1">
+					<div
+						class="progress-bar"
+						role="progressbar"
+						aria-valuenow="20"
+						aria-valuemin="0"
+						aria-valuemax="100"
+						style="width: 75%"
+					></div>
+				</div>
+			</section>
+
+			<section class="mt-5 text-center">
+				<p class="font-weight-light">Made by Dennis Martinez-Lopez</p>
+			</section>
+		</div>
+
+		<script src="index.js"></script>
+	</body>
+</html>
